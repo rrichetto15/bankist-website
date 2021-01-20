@@ -184,3 +184,26 @@ window.addEventListener('scroll', function (e) {
   }
 });
 */
+
+/*
+///////////////////////////////////////
+// Lifecycle DOM Events
+
+// HTML and JS loaded
+document.addEventListener('DOMContentLoaded', function (e) {
+  console.log('HTML parsed and DOM tree built!', e);
+});
+
+// HTML, Images, CSS, and third-party loaded (basically the full page)
+window.addEventListener('load', function (e) {
+  console.log('Page fully loaded', e);
+});
+
+// Immediately before a user is about to close a page (when they click the X)
+// window.addEventListener('beforeunload', function (e) {
+//   e.preventDefault();
+
+//   console.log(e);
+//   e.returnValue = '';
+// });
+*/
